@@ -1,0 +1,58 @@
+running egg_info
+creating build/moveit_demo/moveit_demo.egg-info
+writing build/moveit_demo/moveit_demo.egg-info/PKG-INFO
+writing dependency_links to build/moveit_demo/moveit_demo.egg-info/dependency_links.txt
+writing entry points to build/moveit_demo/moveit_demo.egg-info/entry_points.txt
+writing requirements to build/moveit_demo/moveit_demo.egg-info/requires.txt
+writing top-level names to build/moveit_demo/moveit_demo.egg-info/top_level.txt
+writing manifest file 'build/moveit_demo/moveit_demo.egg-info/SOURCES.txt'
+reading manifest file 'build/moveit_demo/moveit_demo.egg-info/SOURCES.txt'
+writing manifest file 'build/moveit_demo/moveit_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/build
+creating /home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/build/lib
+creating /home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/build/lib/moveit_demo
+copying moveit_demo/__init__.py -> /home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/build/lib/moveit_demo
+copying moveit_demo/simple_grasping_demo.py -> /home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/build/lib/moveit_demo
+copying moveit_demo/moveit_demo.py -> /home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/build/lib/moveit_demo
+copying moveit_demo/object_grasping_demo_updated.py -> /home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/build/lib/moveit_demo
+copying moveit_demo/moveit_demo_grasping.py -> /home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/build/lib/moveit_demo
+running install
+running install_lib
+creating /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/python3.12/site-packages/moveit_demo
+copying /home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/build/lib/moveit_demo/__init__.py -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/python3.12/site-packages/moveit_demo
+copying /home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/build/lib/moveit_demo/simple_grasping_demo.py -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/python3.12/site-packages/moveit_demo
+copying /home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/build/lib/moveit_demo/moveit_demo.py -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/python3.12/site-packages/moveit_demo
+copying /home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/build/lib/moveit_demo/object_grasping_demo_updated.py -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/python3.12/site-packages/moveit_demo
+copying /home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/build/lib/moveit_demo/moveit_demo_grasping.py -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/python3.12/site-packages/moveit_demo
+byte-compiling /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/python3.12/site-packages/moveit_demo/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/python3.12/site-packages/moveit_demo/simple_grasping_demo.py to simple_grasping_demo.cpython-312.pyc
+byte-compiling /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/python3.12/site-packages/moveit_demo/moveit_demo.py to moveit_demo.cpython-312.pyc
+byte-compiling /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/python3.12/site-packages/moveit_demo/object_grasping_demo_updated.py to object_grasping_demo_updated.cpython-312.pyc
+byte-compiling /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/python3.12/site-packages/moveit_demo/moveit_demo_grasping.py to moveit_demo_grasping.cpython-312.pyc
+running install_data
+creating /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/ament_index
+creating /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/ament_index/resource_index
+creating /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/ament_index/resource_index/packages
+copying resources/moveit_demo -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/ament_index/resource_index/packages
+copying package.xml -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/moveit_demo
+creating /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/moveit_demo/config
+copying config/ur5e.srdf.xacro -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/moveit_demo/config
+copying config/ur5e.urdf.xacro -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/moveit_demo/config
+copying config/moveit_py.yaml -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/moveit_demo/config
+copying config/ompl_planning.yaml -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/moveit_demo/config
+copying config/moveit_py_config.yaml -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/moveit_demo/config
+copying config/chomp_planning.yaml -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/moveit_demo/config
+copying config/pilz_industrial_motion_planner_planning.yaml -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/moveit_demo/config
+creating /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/moveit_demo/launch
+copying launch/object_grasping_demo.launch.py -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/moveit_demo/launch
+copying launch/moveit_demo.launch.py -> /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/share/moveit_demo/launch
+running install_egg_info
+Copying build/moveit_demo/moveit_demo.egg-info to /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/python3.12/site-packages/moveit_demo-0.1.0-py3.12.egg-info
+running install_scripts
+Installing moveit_demo script to /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/moveit_demo
+Installing moveit_grasping_demo script to /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/moveit_demo
+Installing object_grasping_demo_updated script to /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/moveit_demo
+Installing simple_grasping_demo script to /home/xinyue/ros2_ws/src/moveit_demo/install/moveit_demo/lib/moveit_demo
+writing list of installed files to '/home/xinyue/ros2_ws/src/moveit_demo/build/moveit_demo/install.log'

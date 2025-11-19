@@ -1,0 +1,5 @@
+[console_scripts]
+moveit_demo = moveit_demo.moveit_demo:main
+moveit_grasping_demo = moveit_demo.moveit_demo_grasping:main
+object_grasping_demo_updated = moveit_demo.object_grasping_demo_updated:main
+simple_grasping_demo = moveit_demo.simple_grasping_demo:main
